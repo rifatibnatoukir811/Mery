@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* nav part start */
+.menu-bg{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.menu-bg ul li a{
+    color:  #474747 !important;
+    padding: 0 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 400;
+}
+.one .hire{
+    padding: 18px 35px !important;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link{
+    display: inline-block;
+}
+/* nav part end */
+/* banner part start */
+#banner{
+    background-color: #FFF8F3;
+}
+.banner-text{
+    padding-top: 297px;
+    padding-bottom: 202px;
+}
+.banner-text h2{
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-text h1{
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.banner-text p{
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 585px;
+    padding-top: 20px;
+}
+.banner-btn{
+    padding-top: 30px;
+}
+.banner-btn a{
+    padding: 19px 25px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A ;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.banner-btn a:hover{
+    background: #FD6E0A;
+    color: #FFF;
+
+}
+.banner-btn i{
+    font-size: 16px;
+    padding-right: 7px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.ban-content{
+    position: relative;
+}
+.ban-sun{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ban-man{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+#banner h3{
+    color: rgba(24, 24, 24, 0.15);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 33px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* banner part end */
+/* about part start */
+#about{
+    margin-top: 135px;
+}
+.about-main{
+    padding: 100px 0;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+.about-text{
+    text-align: center;
+}   
+.about-text h2{
+    color: #181818;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-text p{
+    color: #757575;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 827px;
+    margin-top: 30px;
+}
+.about-item{
+    margin-top: 30px;
+}
+.about-item h3{
+    color: #757575;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.about-item h4{
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+}
+/* about part end */
+/* what i part start */
+.what-about{
+    padding: 161px 0;
+}
+.what-text{
+    text-align: center;
+}
+.what-text h2{
+    color: #181818;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what-text p{
+    color: #757575;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 909px;
+    margin-top: 30px;
+}
+
+/* what i part end */
+/* card part start  */
+.cards{
+    margin-top: 50px;
+}
+.what-item{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 80px 15px;
+    padding-left: 20px;
+
+}
+.what-item h3{
+    color:  #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.what-item p{
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 201px;
+    margin-top: 20px;
+}
+/* card part end */
+/* summery part start */
+.summery-head h2{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sub-head{
+    padding-top: 113px;
+    padding-bottom: 60px;
+
+}
+.sub-head h3{
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sub-head .one{
+    padding-top: 40px;
+}
+.sub-head .one h4{
+    color:  #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-head .one h5{
+    color:  #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.sub-head .one p{
+    color:  #757575;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 511px;
+    margin-top: 20px;
+}
+/* summery part end */
+/* summnery button part start */
+
+.summery-btn a{
+    padding: 19px 25px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A ;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.summery-btn a:hover{
+    background: #FD6E0A;
+    color: #FFF;
+
+}
+.summery-btn i{
+    font-size: 16px;
+    padding-right: 7px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+/* summnery button part end */
+/* footer part start */
+#footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+.footer-data{
+    padding-top: 130px;
+}
+.footer-data h2{
+    color:  #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-data p{
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 562px;
+    padding-top: 20px;
+}
+.footer-data a{
+    padding-right: 24px;
+    padding-top: 24px;
+}
+.footer-data a i{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #FD6E0A;
+}
+.right-part input{
+    display: block;
+    width: 600px;
+    height: 64px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    line-height: 64px;
+    margin-top: 28px;
+    border-radius: 5px;
+    border: 2px solid #ededed;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.right-part textarea{
+    display: block;
+    width: 600px;
+    height: 180px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    margin-top: 28px;
+    border-radius: 5px;
+    border: 2px solid #ededed;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.right-part button{
+    padding: 19px 39px;
+    border-radius: 5px;
+    border: 2px solid gray ;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    border: none;
+    transition: 0.5s;
+    margin-bottom: 130px;
+}
+.right-part button:hover{
+    background: #FD6E0A;
+    color: #FFF;
+}
+
+/* footer part end */
+
+
+
+
